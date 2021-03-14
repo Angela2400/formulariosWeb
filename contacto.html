@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta UTF-8>
+    <link rel="stylesheet" href="css/style.css">
+    <title> Contactanos </title>
+</head>
+
+<header>
+    <h2> FORMULARIO DE ENVIO  </h2>
+</header>
+
+<body>
+
+    <form action="enviar.php" method="POST" data-netlify="true">
+        <div> 
+        <label for="nombre"> Escriba su nombre:</label>
+        <input type="text" placeholder="Escribe tu nombre" maxlength="50" name=nombre id="nombre">
+        <br>
+        <br>
+    </div>
+
+<div>
+        <label for="asunto"> Asunto:</label>
+        <input type="text" placeholder="Escribe el asunto" maxlength="50" name=asunto id="asunto">
+        <br>
+        <br>
+    </div>
+
+    <div>
+        <label for="email"> Escriba su email:</label>
+        <input type="email" placeholder="Escriba su email" maxlength="50" name=email id="email">
+        <br>
+        <br>
+    </div>
+
+    <div>
+        <label for="texto"> Escriba su mensaje:</label>
+        <textarea  name=texto id="texto"></textarea>
+        <br>
+        <br>
+    </div>
+
+    <hr>
+        <input type="submit">
+        <a href="index.html"> <input type="button" value="Cancelar" id="boton">  </a>  
+        <br>
+        <br>
+    </form>
+</body>
+</html>
